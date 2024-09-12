@@ -2,7 +2,6 @@
 # Sahib @HuseynH
 # Repo Açığdısa İcazəsis Götürmə
 
-
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from MusicAzBot.config import Config
 
