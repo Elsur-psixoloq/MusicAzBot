@@ -1,0 +1,25 @@
+{
+    "name": "Music Az Bot",
+    "description": "@HuseynH",
+    "logo": "https://files.catbox.moe/6gatlp.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "Music",
+    "Az",
+    "bot",
+    "pyrogram"
+    ],
+    "env": {
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
