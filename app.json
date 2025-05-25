@@ -12,6 +12,21 @@
     "pyrogram"
     ],
     "env": {
+       "API_ID": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "19485442",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "a03fcb372b3ec4e406b5d52f84b02e53",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "A Bot's token from Botfather",
+        "value": "",
+        "required": true
+      }       
     },
     "buildpacks": [
           {
